@@ -1,7 +1,9 @@
-import "./index.scss";
+import Logo from "./logo";
+import Burger from "./burger";
+import "./header.module.css";
 export default (props, { results = [] }) => (
-  <div>
-    <h1>Example Preact app on Now</h1>
-    <div class="list">Look, it's server rendered!</div>
-  </div>
+  <header class="header--root">
+    <Burger />
+    <Logo />
+  </header>
 );

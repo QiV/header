@@ -1,0 +1,15 @@
+.header--root {
+  --size: 56px;
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 56px;
+  padding: 0;
+  background: #fff;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+  box-shadow: 0 1px 4px #a8a5a3;
+  z-index: 50;
+  display: flex;
+  align-content: center;
+}
